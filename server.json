@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/trf3-mcp",
+  "title": "Jurisprudência TRF3",
+  "description": "Brazilian case law search for AI agents from the federal appellate court for São Paulo and Mato Gros",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/trf3-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_trf3"
+    }
+  ]
+}
